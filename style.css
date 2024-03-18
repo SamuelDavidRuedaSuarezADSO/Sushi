@@ -1,0 +1,45 @@
+/* 
+***Globlales***
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --bgd--color--acul: #21243d;
+  --color--txt--sky: #4a89ff;
+  --color--txt--white: #fff;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: var(--color--txt--white);
+}
+a:hover{
+  color: var(--color--txt--sky);
+}
+/* 
+***header***
+*/
+.header{
+  background-color: var(--bgd--color--acul);
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header___logo{
+  height: 40px;
+  width: 10 0px;
+}
+.header__nav--list{
+  display: flex;
+  width: 500px;
+}
+.header__list--item{
+  font-size: 20px;
+  margin-left: 30px;
+}
